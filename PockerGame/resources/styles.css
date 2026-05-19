@@ -1,0 +1,64 @@
+.root {
+    -fx-background-color: linear-gradient(
+            to bottom,
+            #0f5132,
+            #0b3d2e
+    );
+}
+
+.title {
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+    -fx-text-fill: gold;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+
+    -fx-padding: 15 10 15 10;
+
+    -fx-min-width: 60;
+    -fx-min-height: 90;
+
+    -fx-alignment: center;
+
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+
+    -fx-border-color: #222;
+    -fx-border-width: 2;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0.3, 2, 2);
+}
+
+.game-button {
+
+    -fx-background-color: gold;
+
+    -fx-text-fill: black;
+
+    -fx-font-size: 18px;
+
+    -fx-font-weight: bold;
+
+    -fx-padding: 10 25 10 25;
+
+    -fx-background-radius: 10;
+    -fx-background-insets: 10;
+}
+
+.game-button:hover {
+
+    -fx-background-color: orange;
+
+    -fx-cursor: hand;
+}
