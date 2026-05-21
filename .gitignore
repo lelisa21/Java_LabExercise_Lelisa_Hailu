@@ -1,0 +1,13 @@
+*.class
+*.log
+
+# Package Files 
+*.jar
+*.war
+*.ear
+
+# Build directories
+target/
+build/
+
+.vscode/
